@@ -1,0 +1,11 @@
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\bin\Debug\Modelo de Orbita da Terra.exe.config
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\bin\Debug\Modelo de Orbita da Terra.exe
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\bin\Debug\Modelo de Orbita da Terra.pdb
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo de Orbita da Terra.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo de Orbita da Terra.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo_de_Orbita_da_Terra.Form1.resources
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo_de_Orbita_da_Terra.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo de Orbita da Terra.csproj.GenerateResource.cache
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo de Orbita da Terra.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo de Orbita da Terra.exe
+C:\Users\Gabriel\Desktop\Programação\Csharp\Modelo de Orbita da Terra\Modelo de Orbita da Terra\obj\Debug\Modelo de Orbita da Terra.pdb
