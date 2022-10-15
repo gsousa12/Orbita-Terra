@@ -34,6 +34,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.label1 = new System.Windows.Forms.Label();
+            this.lbl_orbit = new System.Windows.Forms.Label();
+            this.lbl_earth_day = new System.Windows.Forms.Label();
+            this.lbl_seasons = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +51,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Começar";
+            this.button1.Text = "Iniciar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -84,12 +87,50 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Velocidade da Terra";
             // 
+            // lbl_orbit
+            // 
+            this.lbl_orbit.AutoSize = true;
+            this.lbl_orbit.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_orbit.ForeColor = System.Drawing.Color.White;
+            this.lbl_orbit.Location = new System.Drawing.Point(12, 56);
+            this.lbl_orbit.Name = "lbl_orbit";
+            this.lbl_orbit.Size = new System.Drawing.Size(97, 19);
+            this.lbl_orbit.TabIndex = 4;
+            this.lbl_orbit.Text = "Período de Orbita";
+            // 
+            // lbl_earth_day
+            // 
+            this.lbl_earth_day.AutoSize = true;
+            this.lbl_earth_day.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_earth_day.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.lbl_earth_day.Location = new System.Drawing.Point(12, 89);
+            this.lbl_earth_day.Name = "lbl_earth_day";
+            this.lbl_earth_day.Size = new System.Drawing.Size(80, 19);
+            this.lbl_earth_day.TabIndex = 5;
+            this.lbl_earth_day.Text = "Dias na Terra";
+            this.lbl_earth_day.Click += new System.EventHandler(this.lbl_earth_day_Click);
+            // 
+            // lbl_seasons
+            // 
+            this.lbl_seasons.AutoSize = true;
+            this.lbl_seasons.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_seasons.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lbl_seasons.Location = new System.Drawing.Point(12, 120);
+            this.lbl_seasons.Name = "lbl_seasons";
+            this.lbl_seasons.Size = new System.Drawing.Size(51, 19);
+            this.lbl_seasons.TabIndex = 7;
+            this.lbl_seasons.Text = "Estação";
+            this.lbl_seasons.Click += new System.EventHandler(this.lbl_seasons_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(434, 361);
+            this.Controls.Add(this.lbl_seasons);
+            this.Controls.Add(this.lbl_earth_day);
+            this.Controls.Add(this.lbl_orbit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.button2);
@@ -112,6 +153,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_orbit;
+        private System.Windows.Forms.Label lbl_earth_day;
+        private System.Windows.Forms.Label lbl_seasons;
     }
 }
 
